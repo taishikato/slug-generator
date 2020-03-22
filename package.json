@@ -1,6 +1,6 @@
 {
   "name": "@taishikato/slug-generator",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "generate slug string",
   "main": "index.js",
   "repository": "https://github.com/taishikato/slug-generator",

@@ -9,5 +9,12 @@
   "private": false,
   "dependencies": {
     "uuid": "^7.0.2"
-  }
+  },
+  "keywords": [
+    "slug",
+    "npm",
+    "package",
+    "taishikato",
+    "slug generator"
+  ]
 }

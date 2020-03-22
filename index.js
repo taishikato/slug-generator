@@ -1,4 +1,4 @@
-import uuid from 'uuid/v4';
+import { v4 as uuidv4 } from 'uuid';
 
 const generateSlug = (target, hasUuidSuffix = false) => {
   const text = target.toLowerCase();
@@ -9,7 +9,7 @@ const generateSlug = (target, hasUuidSuffix = false) => {
     return text !== '';
   });
   const slug = textArray.join('-');
-  if (hasUuidSuffix) return `${slug}-${uuid().split('-')[0]}`;
+  if (hasUuidSuffix) return `${slug}-${uuidv4().split('-')[0]}`;
   return slug;
 };
 

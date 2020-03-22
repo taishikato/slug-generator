@@ -1,0 +1,10 @@
+{
+  "name": "@taishikato/slug-generator",
+  "version": "1.0.0",
+  "description": "generate slug string",
+  "main": "index.js",
+  "repository": "https://github.com/taishikato/slug-generator",
+  "author": "taishikato",
+  "license": "MIT",
+  "private": false
+}

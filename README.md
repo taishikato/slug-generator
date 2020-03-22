@@ -1,4 +1,4 @@
-# @taishiakto/slug-generator
+# @taishikato/slug-generator
 
 ![npm (scoped)](https://img.shields.io/npm/v/@taishikato/slug-generator)
 ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@taishikato/slug-generator?label=minified%20size)
@@ -6,11 +6,11 @@
 ## Install
 With npm
 ```shell
-$ npm i @taishiakto/slug-generator
+$ npm i @taishikato/slug-generator
 ```
 With yarn
 ```shell
-$ yarn add @taishiakto/slug-generator
+$ yarn add @taishikato/slug-generator
 ```
 
 ## Usage

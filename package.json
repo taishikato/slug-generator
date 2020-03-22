@@ -6,5 +6,8 @@
   "repository": "https://github.com/taishikato/slug-generator",
   "author": "taishikato",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "uuid": "^7.0.2"
+  }
 }

@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const generateSlug = (target, hasUuidSuffix = false) => {
+const generateSlug = (target: string, hasUuidSuffix = false): string => {
   const text = target.toLowerCase();
   // Delete all but number and alphabet string
   const filterdText = text.replace(/[^a-zA-Z0-9]/g, ' ');

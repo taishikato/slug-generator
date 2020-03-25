@@ -3,10 +3,14 @@
   "version": "2.0.2",
   "description": "generate slug string",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/taishikato/slug-generator",
   "author": "taishikato",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "uuid": "^7.0.2"
   },
@@ -16,5 +20,8 @@
     "package",
     "taishikato",
     "slug generator"
-  ]
+  ],
+  "devDependencies": {
+    "@types/uuid": "^7.0.2"
+  }
 }

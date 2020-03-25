@@ -22,6 +22,7 @@
     "slug generator"
   ],
   "devDependencies": {
-    "@types/uuid": "^7.0.2"
+    "@types/uuid": "^7.0.2",
+    "typescript": "^3.8.3"
   }
 }

@@ -2,3 +2,5 @@
 yarn.lock
 node_modules
 index.ts
+tests
+.github
